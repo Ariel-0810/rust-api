@@ -1,0 +1,16 @@
+[package]
+name = "backend-prueba"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = { version = "4", features = ["default"] }
+actix-rt = "2"
+actix-service = "2.0.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"
+serde_json = "1.0"
+mongodb = { version = "3.0.1", features = ["sync"] }
+futures-util = "0.3"
+dotenv = "0.15"
+
